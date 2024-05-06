@@ -1,0 +1,15 @@
+for installation
+
+sudo apt remove scala-library scala
+
+wget https://downloads.lightbend.com/scala/2.13.4/scala-2.13.4.deb
+
+sudo dpkg -i scala-2.13.4.deb
+
+
+
+
+for run file:
+
+scalac filename.scala
+scala filename.scala
